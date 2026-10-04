@@ -1,36 +1,44 @@
 # Lab Reflection: Unit 8 Lab 1 - Git Version Control + Debugging (BuggyProgram)
 
 ## Student Name
-Enter your name here.
+Artries John Pangilinan
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+https://github.com/aJ-yP/cmsc115-unit8lab1.git
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- I included the original BuggyProgram.java file, the three JUnit test classes, and the
+- README.md file.
 
 ## What was the purpose of this commit?
--
+- The purpose was to save the original project before making any changes. This established a
+- baseline that I could use to compare my fixes and track my progress though git.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- The tests checking the grade categories and score boundaries were failing because the method 
+- returned the wrong category for certain scores.
 
 ## What was the issue in the code?
--
+- The conditional statements used incorrect comparison operators and returned the wrong 
+- performance categories. The original code also assigned "Meets" to scores above 90 instead 
+- of "Exceeds".
 
 ## What change did you make to fix it?
--
+- I corrected the order of the grade categories and changed the comparison operators to include
+- the boundary values. Scores of 90 or higher return "Exceed", scores of 80 or higher but below
+- 90 return "Meets", and scores below 80 return "Does Not Meet".
 
 ## How did the tests help guide your fix?
--
+- The tests showed the expected and actual results,which helped me identify the incorrect
+- category assignments and boundary conditions.
 
 ---
 
