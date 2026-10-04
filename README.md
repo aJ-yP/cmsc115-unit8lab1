@@ -38,23 +38,26 @@ https://github.com/aJ-yP/cmsc115-unit8lab1.git
 
 ## How did the tests help guide your fix?
 - The tests showed the expected and actual results,which helped me identify the incorrect
-- category assignments and boundary conditions. 
+- category assignments and boundary conditions.
 
 ---
 
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- The tests checking the sum of even numbers were expected to fail because the original method
+- initialized the sum incorrectly and used an invalid loop boundary.
 
 ## What was the issue in the code?
--
+- The sum started at 1 instead of 0, which caused incorrect totals. The loop also used
+- i <= values.length, allowing it to access an array index outside the valid range.
 
 ## What change did you make to fix it?
--
+- I initialized the sum to 0 and changed the loop condition to i < values.length. This allows
+- the method to examine every valid array element without going beyond the array's bounds.
 
 ## How did the tests help guide your fix?
--
+- The tests helped expose the array boundary problem.
 
 ---
 
