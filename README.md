@@ -38,7 +38,7 @@ https://github.com/aJ-yP/cmsc115-unit8lab1.git
 
 ## How did the tests help guide your fix?
 - The tests showed the expected and actual results,which helped me identify the incorrect
-- category assignments and boundary conditions.
+- category assignments and boundary conditions. 
 
 ---
 
