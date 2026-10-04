@@ -85,26 +85,41 @@ https://github.com/aJ-yP/cmsc115-unit8lab1.git
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 2 was relatively easy to understand because the problems were clear in the code. The
+- incorrect starting value and loop boundary explained why the method could cause an array index
+- error.
 
 ## Which task was the most difficult? Why?
--
+- Task 3 was the most difficult because I had to figure out how to make the method work when
+- the starting number was greater than the ending number. The original loop only counted
+- upward, so it did not work for descending ranges.
 
 ## How did Git help you track your progress through the debugging process?
--
+- Git allowed me to save each stage of my work in separate commits. This made it easier to track
+- the changes for each task, and review my progress.
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- Small, frequent commits keep changes organized and make it easier to identify which
+- modification cause a problem r fixed a bug. They also make it easier to review the project
+- history and undo a specific change without losing unrelated work.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- I learned that JUnit tests can reveal logical errors that may not be obvious from reading
+- the code alone. Comparing expected and actual results helps narrow down the source of the
+- problem. Rerunning tests after making changes also helps verify that the fix works
+- as intended.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- Before making the final commit, I completed the debugging tasks, updated the README with
+- my reflections, checked project files, and verified that the JUnit tests passed. I also
+- confirmed that my changes were committed and pushed to GitHub.
 
 ## Why is it useful to document your work after completing a programming task?
--
+- Documenting my work helps explain the problems I encountered, the changes I made, and how
+- I verified the results. It also makes the project easier for other developers to understand
+- and maintain. Recording the debugging process gives me something to reference when I encounter
+- similar problems in the future.
