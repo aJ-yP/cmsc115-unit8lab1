@@ -64,16 +64,21 @@ https://github.com/aJ-yP/cmsc115-unit8lab1.git
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- The test for sumRange(5, 0) was failing because the method returned 0 instead of 15.
 
 ## What was the issue in the code?
--
+- The original loop only counted upward from the starting number to the ending number. When
+- the starting number was greater than the ending number, the loop condition was false
+- immediately, so the loop never executed.
 
 ## What change did you make to fix it?
--
+- I added an if and else statement with two for loops. The first loop counts upward when the
+- starting number is less than or equal to the ending number. The second loop counts downward
+- when the starting number is greater than the ending number.
 
 ## How did the tests help guide your fix?
--
+- The tests helped me identify that the method worked for ranges that counted upward but failed
+- for ranges that counted downward.
 
 ---
 

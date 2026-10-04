@@ -30,8 +30,15 @@ public class BuggyProgram {
     public static int sumRange(int start, int end) {
         int sum = 0;
 
-        for (int i = start; i <= end; i++) {
-            sum += i;
+        if (start <= end) {
+            for (int i = start; i <= end; i++) {
+                sum += i;
+            }
+        }
+        else {
+            for (int i = start; i >= end; i--) {
+                sum += i;
+            }
         }
 
         return sum;
